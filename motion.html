@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta content="Quentin Dupressoir book" name="description">
+    <meta content="quentin,dupressoir,book,portfolio,e-art,e-artsup,paris,graphiste,motion,design,webdesign, designer" name="keyword" >
+    <meta content="Quentin Dupressoir" name="author">
+    <title>Dupressoir Quentin - Motion Design</title>
+    <link rel="prefetch" href="./media">
+    <link rel="stylesheet" href="./rsrc/css/reset.css">
+    <link rel="stylesheet" href="./rsrc/css/styles.css">
+    <link rel="icon" type="image/ico" href="./rsrc/m/icon.ico">
+    <link rel="stylesheet" type="text/css" href="./rsrc/dist/jquery.fancybox.min.css">
+</head>
+
+<header>
+     <nav>
+      <!-- <div class="menu-icon">
+        <img src="./rsrc/m/allicon.svg">
+      </div>  -->   
+      <div class="shownav" onmouseover="document.getElementById('navbar').className='navbar1'" onmousemove="document.getElementById('hidenav').className='hidenav1'">&nbsp;
+      </div>
+      <!-- <div id="hidenav" class="hidenav0" onmouseover="document.getElementById('navbar').className='navbar0'" onmousemove="document.getElementById('hidenav').className='hidenav0'">&nbsp;
+      </div> -->
+      <div id="navbar" class="navbar2"> <!-- navbar -->
+        <div class="navbar-inner">
+          <a class="nav-item one" href="index.html">
+            <img src="./rsrc/m/home.svg" alt="Home-Icon"/>
+            <p color="white">Home</p>
+          </a>
+          <a class="nav-item two active" href="motiondesign.html">
+            <img src="./rsrc/m/video-player.svg" alt="Motion-Icon"/>
+            <p color="white">Motion Design</p>
+          </a>
+          <a class="nav-item three" href="photo.html">
+            <img src="./rsrc/m/camera.svg" alt="Photo-Icon"/>
+            <p color="white">Photographie</p>       
+          </a>
+          <a class="nav-item four" href="communication.html">
+            <img src="./rsrc/m/world.svg" alt="Com-Icon"/>
+            <p color="white">Affichage</p>
+          </a>
+          <a class="nav-item five" href="edition.html">
+            <img src="./rsrc/m/ad.svg" alt="Edition-Icon"/>
+            <p color="white">Édition</p>
+          </a>
+          <a class="nav-item six" href="contact.html">
+            <img src="./rsrc/m/contact.svg" alt="Contact-Icon"/>
+            <p color="white">Contact </p>       
+          </a>
+        </div> <!-- end navbar-inner -->
+      </div> <!-- end navbar -->
+    </nav>
+  </header>
+
+<body>
+
+
+<h3>Gallery with one preview image</h3>
+
+<p>
+  To show only one or a few images but have a large gallery, simply hide the rest of the links. <br />
+  Optionally, use <code>data-thumb</code> for thumbnail image.
+</p>
+<p>
+    <a href="https://c1.staticflickr.com/1/357/31876784275_12286240d4_h.jpg" data-fancybox="images-single">
+      <img src="https://c1.staticflickr.com/1/357/31876784275_fbc9696913_m.jpg" />
+    </a>
+</p>
+
+<div style="display: none;">
+  
+  <a href="https://farm3.staticflickr.com/2947/33594572585_b48eba935b_k_d.jpg" data-fancybox="images-single"
+     data-thumb="https://farm3.staticflickr.com/2947/33594572585_46ca00f3a5_m_d.jpg"></a>
+  
+  <a href="https://farm3.staticflickr.com/2859/33395734202_522f9d8efd_k_d.jpg" data-fancybox="images-single"
+     data-thumb="https://farm3.staticflickr.com/2859/33395734202_15a81c4ef3_m_d.jpg"></a>
+  
+</div>
+
+	<!-- JS -->
+	<script src="./rsrc/dist/jquery-3.2.1.min.js"></script>
+	<script src="./rsrc/dist/jquery.fancybox.min.js"></script>
+</body>
+</html>
