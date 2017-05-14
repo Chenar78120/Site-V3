@@ -473,6 +473,7 @@
                     obj.opts.smallBtn = false;
 
                     obj.opts.iframe.preload = false;
+                    protect : true;
 
                 }
 
@@ -2716,6 +2717,7 @@
 		},
 
 		vimeo: {
+            protect : true,
 			matcher: /^.+vimeo.com\/(.*\/)?([\d]+)(.*)?/,
 			params: {
 				autoplay: 1,
